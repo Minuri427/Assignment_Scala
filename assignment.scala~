@@ -1,0 +1,17 @@
+object assignment extends App{
+  def temperature(c:Double)=c*1.8+32;
+    println(temperature(35));
+
+  def volume(r:Double)=4/3*3.14*r*r*r;
+    println(volume(5));
+
+  def cost(b:Int): Double = {
+	if(b<=50) b*(24.95-24.95*40/100)+50*b;
+
+	else b*(24.95-24.95*40/100)+(50*3+(b-50)*0.75);
+  }
+  
+  println(cost(60));
+  
+}
+
