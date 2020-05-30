@@ -7,6 +7,6 @@ object assignment2 extends App{
   def salWithoutTax(nh : Int,oth : Int) = normal(nh)+ot(oth);
   def tax(nh : Int,oth : Int):Double = salWithoutTax(nh,oth)*10/100;
   def salary(nh : Int,oth : Int):Double = salWithoutTax(nh,oth)-tax(nh,oth);
-    println(salary(60,40));
+    println(salary(40,20));
 }
  
